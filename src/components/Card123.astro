@@ -1,0 +1,51 @@
+---
+const { titel, beskrivelse, deluxe, variant } = Astro.props;
+import Button from "../components/Button.astro";
+---
+
+<article class={deluxe} data-variant={variant}>
+  <div class="article_img">
+    <img class="hejsa" src="public/img/kommode.png" alt="" />
+  </div>
+  <h3>{titel}</h3>
+  <p>{beskrivelse}</p>
+  <Button />
+  {deluxe == true && <p>deLuxe</p>}
+</article>
+
+<style>
+  article {
+    width: 280px;
+    margin: 250px;
+    background-color: var(--color-background-body);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+
+  [data-variant="primary"] {
+    background-color: var(--birgitte);
+  }
+
+  [data-variant="secondary"] {
+    background-color: var(--color-red-dark);
+  }
+
+  .article_img img {
+    aspect-ratio: 930/741;
+    max-width: 450px;
+  }
+
+  .article_img {
+    width: 40vmin;
+    height: 200px;
+  }
+
+  .hejsa {
+    object-fit: contain;
+  }
+</style>
