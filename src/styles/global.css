@@ -43,3 +43,45 @@
   --line-height-reset: 1;
   --line-height-text: 1.5;
 }
+
+:root {
+  --color-background-body: #f0f0f0;
+  --color-primary-text: #322c2c;
+  --color-secondary-text: #f0f0f0;
+  --color-company-red: #c0363f;
+  --color-yellow: #d1b245;
+  --color-green: #449b71;
+  --easing-easeInSine: cubic-bezier(0.12, 0, 0.39, 0);
+  --easing-easeOutSine: cubic-bezier(0.61, 1, 0.88, 1) 500ms;
+  --radius-circle: 50%;
+  --radius-large: 8px;
+  --radius-small: 2px;
+  --opacity-opacity-25: 0.25;
+  --opacity-opacity-50: 0.5;
+  --opacity-opacity-75: 0.75;
+  --shadow-shadow-main: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --font-family-buttons: Dosis, sans-serif;
+  --font-family-banner: Poppins, sans-serif;
+  --font-family-headings: Vazirmatn, sans-serif;
+  --font-family-body: Dosis, sans-serif;
+  --font-size-card-titel-sm: 16px;
+  --font-size-card-titel: 28px;
+  --font-size-card-artist-sm: 14px;
+  --font-size-card-house-sm: 12px;
+  --font-size-card-banner-sm: 12px;
+  --font-size-card-banner: 20px;
+  --font-size-card-house: 18px;
+  --font-size-button-sm: 16px;
+  --font-size-button-lg: 32px;
+  --font-size-card-valuation: 21px;
+  --font-size-card-description: 16px;
+  --font-size-card-artist: 28px;
+  --font-size-body: 16px;
+  --font-size-body-large: 18px;
+  --letter-spacing-dense: -1px;
+  --letter-spacing-double: 2px;
+  --line-height-heading: 1.25;
+  --line-height-reset: 1;
+  --line-height-text: 1.5;
+}
